@@ -22,7 +22,7 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between px-4 mx-auto">
         <div className="flex items-center gap-2">
           <div className="text-zinc-600 text-2xl font-bold">
-            <span className="text-zinc-900">Sprint</span>Poker
+            <span className="text-zinc-900">Poker</span>Sprints
           </div>
         </div>
         <div className="flex items-center gap-1">
