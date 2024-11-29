@@ -22,7 +22,7 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between px-4 mx-auto">
         <div className="flex items-center gap-2">
           <div className="text-zinc-600 text-2xl font-bold">
-            <span className="text-zinc-900">Poker</span>Sprints
+            <span className="text-zinc-900">Sprint</span>Poker
           </div>
         </div>
         <div className="flex items-center gap-1">
@@ -41,6 +41,9 @@ export function Header() {
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
+              <DropdownMenuItem onClick={() => navigate('/rooms/enter')}>
+                Sair da sala
+              </DropdownMenuItem>
               <DropdownMenuItem>
                 <Button variant="destructive" className="w-full" onClick={handleSignOut}>
                   Sair
