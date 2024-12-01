@@ -7,7 +7,7 @@ on:
     types: [opened, synchronize, reopened]
 jobs:
   sonarcloud:
-    name: SonarQube Cloud
+    name: SonarCloud Analysis
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -15,9 +15,9 @@ jobs:
           fetch-depth: 0  
       - name: Install dependencies
         run: yarn
-      - name: Test and coverage
-        run: yarn jest --coverage
-      - name: SonarQube Cloud Scan
+      - name: Run test with coverage
+        run: yarn coverage
+      - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
