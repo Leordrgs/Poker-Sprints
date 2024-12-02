@@ -17,7 +17,7 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: './setup-tests.js',
     css: true,
-    reporters: ['verbose'],
+    reporters: ['json','verbose'],
     coverage: {
       reporter: ['text', 'json', 'html', 'lcov'],
       reportsDirectory: './covarage',
