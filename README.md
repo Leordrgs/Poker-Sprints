@@ -56,4 +56,9 @@ O Poker Sprints será um grande amigo do time de desenvolvimento e das partes in
 - RNF 1 - O sistema deve suportar diversas pessoas dentro da mesma votação, seja ela aleatória ou privada.
 - RNF 2 - O sistema deve ser implantado em um ambiente de nuvem para garantir escalabilidade e acessibilidade.
 - RNF 3 - O sistema deve estar disponível 24 horas por dia para a possíbilidade da utilização de pessoas de outros países em diferentes horários.
-- RNF 4 - O sistema deve estar disponível em todos os navegadores 
+- RNF 4 - O sistema deve estar disponível em todos os navegadores
+
+### Links de acesso 
+<li><a href="https://poker-sprints.vercel.app/login">PokerSprints</li>
+<li><a href="https://sonarcloud.io/organizations/leordrgs/projects"/>SonarCloud</li>
+<li><a href="https://catolicasc-team-sprintpoker.atlassian.net/jira/software/projects/SCRUM/boards/1"/>Kanban Poker Sprints</a></li>
