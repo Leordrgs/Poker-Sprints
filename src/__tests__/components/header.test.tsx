@@ -45,7 +45,7 @@ describe("Header component", () => {
     const triggerButton = screen.getByRole("button", { name: /John Doe/i });
     await user.click(triggerButton);
 
-    const signOutButton = await screen.findByText("Sair");
+    const signOutButton = await screen.findByText("Desconectar");
 
     await user.click(signOutButton);
 
