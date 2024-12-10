@@ -62,3 +62,7 @@ O Poker Sprints será um grande amigo do time de desenvolvimento e das partes in
 <li><a href="https://poker-sprints.vercel.app/login">PokerSprints</li>
 <li><a href="https://sonarcloud.io/organizations/leordrgs/projects"/>SonarCloud</li>
 <li><a href="https://catolicasc-team-sprintpoker.atlassian.net/jira/software/projects/SCRUM/boards/1"/>Kanban Poker Sprints</a></li>
+
+### Como iniciar o desenvolvimento e arquitetura do projeto 
+
+<li><a href="https://github.com/Leordrgs/Poker-Sprints.wiki.git">Wiki</li>
